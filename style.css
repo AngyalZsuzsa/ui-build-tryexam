@@ -41,7 +41,7 @@ body {
     background-color: #E6E6E6;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 500;
     color: #138073;
 }
 
@@ -55,7 +55,7 @@ body {
 
 h1 {
     font-size: 24px;
-    font-weight:bolder;
+    font-weight: 800;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     text-align: center;
@@ -106,7 +106,7 @@ button {
 
 @media only screen and (max-width: 400px) {
   input {
-    width: 90vw;
+    width: calc(100vw - 60px);
   }
   h1 {
     text-align: right;
